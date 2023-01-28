@@ -16,8 +16,9 @@ const happy = true;
 const finished = false;
 const goal = 3;
 
-const skillColor = "darkolivegreen";
+const backColor = "lightgoldenrodyellow";
 const fontWeight = "bold";
+const skillColor = "darkolivegreen";
 const textCase = "uppercase";
 ---
 
@@ -28,7 +29,10 @@ const textCase = "uppercase";
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{pageTitle}</title>
-    <style define:vars={{skillColor, fontWeight, textCase}}>
+    <style define:vars={{backColor, skillColor, fontWeight, textCase}}>
+     html {
+      background: var(--backColor);
+     }
       h1 {
         color: crimson;
         font-size: 3rem;
