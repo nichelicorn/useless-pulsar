@@ -75,3 +75,7 @@ nav-links a {
     padding: 15px 20px;
   }
 }
+
+.hamburger {
+  display: none;
+}
