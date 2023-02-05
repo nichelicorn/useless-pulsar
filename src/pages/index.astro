@@ -18,5 +18,10 @@ const pageTitle = "Astro test home page";
 		<Header />
 		<h1>my astro site 🚀</h1>
 		<Footer />
+		 <script>
+			document.querySelector('.hamburger').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('expanded');
+    });
+  </script>
 	</body>
 </html>
