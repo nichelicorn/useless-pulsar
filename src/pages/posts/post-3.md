@@ -28,4 +28,4 @@ a checkbox, in markdown syntax, requires a pair of brackets with a dash before t
 
 *these checkboxes don't actually work 🫠
 
-i will have to read through Atom documentation at some point and determine if this is supported
+i will have to read through Astro documentation at some point and determine if this is supported
