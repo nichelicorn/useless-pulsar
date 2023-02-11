@@ -11,10 +11,6 @@ tags: ["astro", "blogging", "learning in public"]
 ---
 <a href="/">Home</a>
 
-# My First Blog Post
-
-Published on: 2023-01-22
-
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
 
 ## What I've accomplished
