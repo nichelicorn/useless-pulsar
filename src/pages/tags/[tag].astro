@@ -5,16 +5,17 @@ export async function getStaticPaths() {
  const allPosts = await Astro.glob("../posts/*.md");
  
   return [
-    { params: { tag: "astro" } },
-    { params: { tag: "successes" } },
-    { params: { tag: "community" } },
-    { params: { tag: "blogging" } },
-    { params: { tag: "setbacks" } },
-    { params: { tag: "learning in public" } },
+    { params: { tag: "astro" }, props: {posts: allPosts }},
+    { params: { tag: "successes" }, props: {posts: allPosts } },
+    { params: { tag: "community" }, props: {posts: allPosts } },
+    { params: { tag: "blogging" }, props: {posts: allPosts } },
+    { params: { tag: "setbacks" }, props: {posts: allPosts } },
+    { params: { tag: "learning in public" }, props: {posts: allPosts } },
   ];
 }
 
 const { tag } = Astro.params;
+const { posts } = Astro.props;
 ---
 <BaseLayout pageTitle={tag}>
   <p>Posts tagged with {tag}</p>
