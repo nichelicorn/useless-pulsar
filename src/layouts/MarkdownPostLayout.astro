@@ -4,4 +4,6 @@ const { frontmatter } = Astro.props;
 <h1>{frontmatter.title}</h1>
 <p>Written by {frontmatter.author}</p>
 <h5>Published on {frontmatter.pubDate.slice(0, 10)}</h5>
+<a href="/">Home</a>
+<a href="/blog">Back</a>
 <slot />
