@@ -21,6 +21,15 @@ h1 {
 }
 
 /* nav styles */
+.dark body {
+  background-color: #042005;
+  color: #ffebcd;
+}
+
+.dark .nav-links a {
+  color: #ffebcd;
+}
+
 .hamburger {
   padding-right: 20px;
   cursor: pointer;
