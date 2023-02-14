@@ -1,5 +1,5 @@
 html {
-  background-color: #f1f5f9;
+  /* background-color: #f1f5f9; */
   font-family: sans-serif;
 }
 
@@ -21,6 +21,10 @@ h1 {
 }
 
 /* nav styles */
+.dark html {
+  /* background-color: blueviolet; */
+}
+
 .dark body {
   background-color: #042005;
   color: #ffebcd;
