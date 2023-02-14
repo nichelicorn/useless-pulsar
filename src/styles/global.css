@@ -22,12 +22,12 @@ h1 {
 
 /* nav styles */
 .dark body {
-  background-color: black;
-  color: blanchedalmond;
+  background-color: #042005;
+  color: #ffebcd;
 }
 
 .dark .nav-links a {
-  color: blanchedalmond;
+  color: #ffebcd;
 }
 
 .hamburger {
